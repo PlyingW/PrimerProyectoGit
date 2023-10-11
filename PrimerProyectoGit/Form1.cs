@@ -5,7 +5,6 @@ namespace PrimerProyectoGit
         public Form1()
         {
             InitializeComponent();
-            this.BackgroundImage = Image.FromFile(@"fondo1.jpg");
         }
     }
 }
