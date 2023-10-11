@@ -56,10 +56,10 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = Properties.Resources.fondo2;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(73, 181);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(707, 800);
+            pictureBox1.Size = new Size(712, 819);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -80,7 +80,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.FromArgb(255, 224, 130);
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point);
-            label2.Location = new Point(260, 551);
+            label2.Location = new Point(260, 533);
             label2.Name = "label2";
             label2.Size = new Size(460, 252);
             label2.TabIndex = 2;
@@ -89,7 +89,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.Image = Properties.Resources.boton;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(1263, 258);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(214, 130);
@@ -100,7 +100,7 @@
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Transparent;
-            pictureBox3.Image = Properties.Resources.boton;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(1560, 258);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(214, 130);
@@ -111,7 +111,7 @@
             // pictureBox4
             // 
             pictureBox4.BackColor = Color.Transparent;
-            pictureBox4.Image = Properties.Resources.boton;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
             pictureBox4.Location = new Point(1263, 448);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(214, 130);
@@ -122,7 +122,7 @@
             // pictureBox5
             // 
             pictureBox5.BackColor = Color.Transparent;
-            pictureBox5.Image = Properties.Resources.boton;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
             pictureBox5.Location = new Point(1560, 448);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(214, 130);
@@ -133,7 +133,7 @@
             // pictureBox6
             // 
             pictureBox6.BackColor = Color.Transparent;
-            pictureBox6.Image = Properties.Resources.boton;
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
             pictureBox6.Location = new Point(1263, 644);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(214, 130);
@@ -144,7 +144,7 @@
             // pictureBox7
             // 
             pictureBox7.BackColor = Color.Transparent;
-            pictureBox7.Image = Properties.Resources.boton;
+            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
             pictureBox7.Location = new Point(1560, 644);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(214, 130);
@@ -222,7 +222,6 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.fondo1;
             ClientSize = new Size(1902, 1033);
             Controls.Add(label8);
             Controls.Add(label7);
