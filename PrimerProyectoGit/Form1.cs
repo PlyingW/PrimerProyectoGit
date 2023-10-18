@@ -6,5 +6,15 @@ namespace PrimerProyectoGit
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hola");
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("adios");
+        }
     }
 }

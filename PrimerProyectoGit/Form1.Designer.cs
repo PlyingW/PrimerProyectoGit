@@ -57,9 +57,10 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(73, 181);
+            pictureBox1.Location = new Point(64, 136);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(712, 819);
+            pictureBox1.Size = new Size(623, 614);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -69,9 +70,9 @@
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(255, 224, 130);
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Italic, GraphicsUnit.Point);
-            label1.Location = new Point(260, 464);
+            label1.Location = new Point(228, 348);
             label1.Name = "label1";
-            label1.Size = new Size(194, 41);
+            label1.Size = new Size(150, 32);
             label1.TabIndex = 1;
             label1.Text = "Instrucciones:";
             // 
@@ -80,9 +81,9 @@
             label2.AutoSize = true;
             label2.BackColor = Color.FromArgb(255, 224, 130);
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point);
-            label2.Location = new Point(260, 533);
+            label2.Location = new Point(228, 400);
             label2.Name = "label2";
-            label2.Size = new Size(460, 252);
+            label2.Size = new Size(364, 189);
             label2.TabIndex = 2;
             label2.Text = resources.GetString("label2.Text");
             // 
@@ -90,9 +91,10 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(1263, 258);
+            pictureBox2.Location = new Point(1105, 194);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(214, 130);
+            pictureBox2.Size = new Size(187, 98);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
@@ -101,20 +103,23 @@
             // 
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(1560, 258);
+            pictureBox3.Location = new Point(1365, 194);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(214, 130);
+            pictureBox3.Size = new Size(187, 98);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 4;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
             pictureBox4.BackColor = Color.Transparent;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(1263, 448);
+            pictureBox4.Location = new Point(1105, 336);
+            pictureBox4.Margin = new Padding(3, 2, 3, 2);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(214, 130);
+            pictureBox4.Size = new Size(187, 98);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 5;
             pictureBox4.TabStop = false;
@@ -123,9 +128,10 @@
             // 
             pictureBox5.BackColor = Color.Transparent;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(1560, 448);
+            pictureBox5.Location = new Point(1365, 336);
+            pictureBox5.Margin = new Padding(3, 2, 3, 2);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(214, 130);
+            pictureBox5.Size = new Size(187, 98);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 6;
             pictureBox5.TabStop = false;
@@ -134,9 +140,10 @@
             // 
             pictureBox6.BackColor = Color.Transparent;
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(1263, 644);
+            pictureBox6.Location = new Point(1105, 483);
+            pictureBox6.Margin = new Padding(3, 2, 3, 2);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(214, 130);
+            pictureBox6.Size = new Size(187, 98);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 7;
             pictureBox6.TabStop = false;
@@ -145,9 +152,10 @@
             // 
             pictureBox7.BackColor = Color.Transparent;
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(1560, 644);
+            pictureBox7.Location = new Point(1365, 483);
+            pictureBox7.Margin = new Padding(3, 2, 3, 2);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(214, 130);
+            pictureBox7.Size = new Size(187, 98);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 8;
             pictureBox7.TabStop = false;
@@ -157,20 +165,21 @@
             label3.AutoSize = true;
             label3.BackColor = Color.FromArgb(88, 194, 210);
             label3.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(1324, 303);
+            label3.Location = new Point(1158, 227);
             label3.Name = "label3";
-            label3.Size = new Size(78, 35);
+            label3.Size = new Size(64, 28);
             label3.TabIndex = 9;
             label3.Text = "Status";
+            label3.Click += label3_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.FromArgb(88, 194, 210);
             label4.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(1624, 303);
+            label4.Location = new Point(1421, 227);
             label4.Name = "label4";
-            label4.Size = new Size(88, 35);
+            label4.Size = new Size(70, 28);
             label4.TabIndex = 10;
             label4.Text = "Branch";
             // 
@@ -179,9 +188,9 @@
             label5.AutoSize = true;
             label5.BackColor = Color.FromArgb(88, 194, 210);
             label5.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(1324, 493);
+            label5.Location = new Point(1158, 370);
             label5.Name = "label5";
-            label5.Size = new Size(53, 35);
+            label5.Size = new Size(43, 28);
             label5.TabIndex = 11;
             label5.Text = "Pull";
             // 
@@ -190,9 +199,9 @@
             label6.AutoSize = true;
             label6.BackColor = Color.FromArgb(88, 194, 210);
             label6.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(1324, 692);
+            label6.Location = new Point(1158, 519);
             label6.Name = "label6";
-            label6.Size = new Size(97, 35);
+            label6.Size = new Size(77, 28);
             label6.TabIndex = 12;
             label6.Text = "Commit";
             // 
@@ -201,9 +210,9 @@
             label7.AutoSize = true;
             label7.BackColor = Color.FromArgb(88, 194, 210);
             label7.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(1624, 493);
+            label7.Location = new Point(1421, 370);
             label7.Name = "label7";
-            label7.Size = new Size(62, 35);
+            label7.Size = new Size(50, 28);
             label7.TabIndex = 13;
             label7.Text = "Push";
             // 
@@ -212,18 +221,18 @@
             label8.AutoSize = true;
             label8.BackColor = Color.FromArgb(88, 194, 210);
             label8.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(1624, 692);
+            label8.Location = new Point(1421, 519);
             label8.Name = "label8";
-            label8.Size = new Size(57, 35);
+            label8.Size = new Size(46, 28);
             label8.TabIndex = 14;
             label8.Text = "Add";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1902, 1033);
+            ClientSize = new Size(1664, 775);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -239,6 +248,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Práctica con git";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
